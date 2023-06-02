@@ -14,3 +14,4 @@
 * git status  
 * git checkout -b <nombre-de-la-rama>
 * git checkout <cambio-de-rama>
+* git cambio desde github
