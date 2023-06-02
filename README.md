@@ -12,3 +12,4 @@
 * git branch -M main
 * git push -u origin main
 * git status  
+* git remote remove -u origin main
