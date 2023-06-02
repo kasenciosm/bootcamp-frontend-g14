@@ -7,3 +7,7 @@
 * git log
 * git log --oneline
 * git log --oneline --graph
+* git show <hash>
+* git remote add origin https://github.com/kasenciosm/bootcamp-frontend-g14.git
+* git branch -M main
+* git push -u origin main
