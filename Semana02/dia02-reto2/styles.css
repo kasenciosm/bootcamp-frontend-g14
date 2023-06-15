@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+body {
+    background-color: hsl(234, 29%, 20%);
+    font-size: 14px;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+main{
+    width: 870px;
+    height: 600px;
+    display: flex;
+    border-radius: 20px;
+    padding: 20px 0px 10px 0px;
+    background-color: hsl(0, 0%, 100%);
+    
+}
+.photo{
+    background-image: url(assets/images/illustration-sign-up-desktop.svg);
+    width: 400px;
+    height: 600px;
+    background-repeat: no-repeat;
+
+}
+.content{
+    width: 320px;
+    height: 450px;
+    padding: 60px 60px 60px 60px;
+}
+.content2{
+    margin-top: 10%;
+    border-radius: 20px;
+    width: 280px;
+    height: 250px;
+    padding: 50px 30px 30px 30px;
+    background-color:hsl(0, 0%, 100%) ;
+}
+
+ul{
+    list-style-image: url(assets/images/icon-list.svg);
+    background-repeat:no-repeat;
+    text-align: justify;
+    padding-left: 8%;
+    margin-top: 20px;
+}
+
+ul li{
+    padding-bottom: 5px;
+}
+
+.content h1{
+    text-align:center;
+    font-weight: 9000;
+    color: hsl(234, 29%, 20%);
+    margin: 0;
+    font-size: 40px;
+}
+
+.content2 h1{
+    text-align:left;
+    font-weight: 5000;
+    color: hsl(234, 29%, 20%);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.content p{
+    text-align:justify;
+    font-weight: 9000;
+    margin: 0;
+}
+
+.content2 p{
+    text-align:left;
+    font-weight: 9000;
+    margin: 0;
+    font-size: 12px;
+}
+
+.email{
+    font-weight: bold;
+    color: hsl(234, 29%, 20%);
+
+}
+
+.texto{
+    border-radius: 7px;
+    border-color: hsl(231, 7%, 60%);
+    border-style: outset;
+    width:92%;
+    padding: 12px;
+}
+
+.boton{
+    margin-top: 20px;
+    width: 100%;
+    color: white;
+    background-color:hsl(234, 29%, 20%);
+    padding: 14px;
+    border-radius: 7px;
+    border: 0;
+    cursor: pointer;
+}
+.boton:hover {
+  background-color: hsl(200, 8%, 21%);
+}
+
+.icon{
+    width: 35px;
+    margin-top: -20px;
+}
