@@ -1,0 +1,18 @@
+:root{
+    /* FONTS */
+    --font-primary: 'Raleway';
+    --font-secondary: 'Open Sans';
+    --font-size: 16px;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+/* COLORS */
+
+    --primary-very-dark-blue: hsl(243, 87%, 12%);
+    --primary-desaturated-blue: hsl(238, 22%, 44%);
+
+    --accent-bright-blue: hsl(224, 93%, 58%);
+    --accent-moderate-cyan: hsl(198, 60%, 50%);
+
+    --neutral-light-grayish-blue:hsl(240, 75%, 98%);
+    --neutral-light-gray:hsl(0, 0%, 75%);
+}

@@ -1,0 +1,58 @@
+.register{
+    padding: 0 3rem;
+    padding-top: 2rem;
+    background-color: var(--primary-desaturated-blue);
+    font-family: var(--font-primary);
+    color: var(--neutral-light-grayish-blue);
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.register__text{
+    padding-left: 4rem;
+    width: 50%;
+}
+
+.register h2{
+    font-size: 30px;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.register p{
+    font-family: var(--font-secondary);
+    width: 32rem;
+    padding-bottom: 6rem;
+}
+
+.reg{
+    padding-top: 4rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.reg input[type=text]{
+    background-color: var(--neutral-light-grayish-blue);
+    border-radius: .2rem;
+    border: none;
+    padding: 1rem 1.5rem;   
+    min-width: 630px;
+}
+
+.reg input[type=submit]{
+    background-color: var(--accent-bright-blue);
+    font-family: var(--font-secondary);
+    font-weight: var(--font-weight-bold);
+    border-radius: .3rem;
+    padding: 1rem 1.5rem;
+    line-height: 1.5;
+    min-width: 100px;
+    color: var(--neutral-white);
+}
+
+.register form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}

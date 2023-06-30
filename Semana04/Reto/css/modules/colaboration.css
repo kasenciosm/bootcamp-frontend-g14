@@ -1,0 +1,48 @@
+.colaboration{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 3rem;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    gap: 6rem;
+    background: var(--neutral-light-grayish-blue); 
+    background-size: contain;
+
+   
+}
+
+.team2{
+    width: 850px;
+    height: 700px;
+}
+.how-works{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 45rem;
+
+}
+
+.how-works__tittle{
+    font-family: var(--font-primary);
+    font-weight: var(--font-weight-bold);
+    font-size: 2.5rem;
+    line-height: 1.5;
+    width: 40rem;
+}
+.how-works__text{
+    font-family: var(--font-secondary);
+    width: 33rem;
+}
+
+.how-works__button{
+    display:flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+    font-family: var(--font-secondary);
+    color: var(--accent-moderate-cyan);
+    border-bottom:0.5px solid var(--accent-moderate-cyan);
+    margin-right: auto;
+    padding-bottom: 0.5rem;
+}

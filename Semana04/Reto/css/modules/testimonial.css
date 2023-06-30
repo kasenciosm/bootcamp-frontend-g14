@@ -1,0 +1,29 @@
+.testimonial{
+    font-family: var(--font-primary);
+    width: min(100% - 3rem, 24rem);
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translate(-20%,410%);
+    background-color:solid white;
+    box-shadow: 0px 1px 5px 1px var(--neutral-light-gray);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 5px;
+}
+
+.testimonial img{
+    border-radius: 50%;
+}
+
+.testimonial_profile{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.testimonial_profile h5{
+    font-weight: var(--font-weight-regular);
+}
