@@ -141,7 +141,6 @@ p{
 }
 
 .skills{
-  border: solid red;
   display: flex;
   flex-direction: column;
  
@@ -149,7 +148,6 @@ p{
  .skills p{
   background-color:#B5C99A;
   text-align: left;
-  border: solid yellow;
   width: 244px;
   height: 42px;
   border-radius: 50px;
