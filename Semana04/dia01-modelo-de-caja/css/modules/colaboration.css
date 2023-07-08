@@ -1,6 +1,6 @@
 .colaboration{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 0 3rem;
     padding-top: 8rem;
     background-color: var(--primary-dark-blue-main);

@@ -41,7 +41,7 @@
 
 .access input[type=submit]{
     font-family: var(--font-secondary);
-    font-weight: var(--font-weight-bold);
+    /* font-weight: var(--font-weight-bold); */
     border: none;
     border-radius: 7rem;
     padding: 1rem 1.5rem;

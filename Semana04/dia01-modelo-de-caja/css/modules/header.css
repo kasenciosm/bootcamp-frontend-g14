@@ -10,12 +10,11 @@
 
 .header__nav{
     list-style: none;
-    /* border: 1px solid blue; */
     padding: 10px;
     margin: 10px;
 
     display: flex;
-    gap:2rem; /* 1rem = 14px */
+    gap:2rem; 
     
 }
 
