@@ -1,0 +1,70 @@
+.projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+
+    &__tag{
+        display: inline-flex;
+        padding: 6px 25px;
+        align-items: flex-start;
+        gap: 1rem;
+
+        color: $primary-color-gold;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: $font-weight-semibold;
+        line-height: 30px;
+
+
+        border-radius: 50px;
+        background: rgba(255, 255, 255, 0.08);
+    }
+
+    &__tittle{
+        color: $primary-color-white;
+        text-align: center;
+        font-family: $font-primary;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: $font-weight-bold;
+        line-height: normal;
+        padding-bottom: 3rem;
+    }
+
+    &__tabs{
+        display: flex;
+        flex-direction: row;
+        gap: 6rem;
+
+    }
+    
+    &__tab-item{
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: $font-weight-semibold;
+        line-height: 30px;
+
+    }
+
+    &__tabs a{
+
+        transition: color ease .4s;
+    }
+
+    &__tabs a:hover{
+        color:$primary-color-gold;
+        border-bottom: 3px solid $primary-color-gold;
+    }
+
+    &__list{
+        padding-top: 3rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &_item img:hover{
+        background: white;
+    }
+
+}
