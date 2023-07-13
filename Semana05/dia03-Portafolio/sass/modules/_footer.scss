@@ -1,0 +1,22 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 17.8rem;
+    gap: 2.5rem;
+    
+    &__logo{
+        color: $primary-color-gold;
+        font-size: 2rem;
+        font-style: normal;
+        font-weight: $font-weight-semibold;
+        line-height: normal;
+    }
+
+    &__copyrigth{
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: $font-weight-semibold;
+        line-height: 2rem;
+    }
+}

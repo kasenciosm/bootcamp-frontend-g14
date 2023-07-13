@@ -79,6 +79,7 @@ a {
   align-items: center;
   gap: 2.5rem;
   padding: 4rem;
+  background-image: url(/images/vector1.svg) no-repeat;
 }
 .hero__gretting {
   font-size: 2rem;
@@ -100,6 +101,30 @@ a {
 }
 .hero__photo {
   border-radius: 100%;
+}
+.hero__vector1 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid red;
+}
+.hero__vector2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid yellow;
+}
+.hero__vector3 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid blue;
+}
+.hero__vector4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: solid black;
 }
 
 .stack {
@@ -238,6 +263,27 @@ a {
 }
 .projects_item img:hover {
   background: white;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 17.8rem;
+  gap: 2.5rem;
+}
+.footer__logo {
+  color: #FFB742;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.footer__copyrigth {
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

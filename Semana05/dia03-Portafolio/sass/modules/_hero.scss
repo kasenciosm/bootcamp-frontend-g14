@@ -4,6 +4,7 @@
     align-items: center;
     gap: 2.5rem;
     padding: 4rem;
+    background-image: url(/images/vector1.svg) no-repeat ;
 
     &__gretting{
         font-size: 2rem;
@@ -29,6 +30,35 @@
 
     &__photo{
         border-radius: 100%;
-        
+    }
+
+    &__vector1{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border:solid red
+
+    }
+
+    &__vector2{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border:solid yellow
+    }
+
+    &__vector3{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: solid blue;
+
+    }
+    &__vector4{
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        border: solid black;
+
     }
 }
